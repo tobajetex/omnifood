@@ -1,4 +1,6 @@
-/* HEADER */
+/**************************/
+/* HEADING */
+/**************************/
 .header {
   display: flex;
   height: 9.6rem;
@@ -11,7 +13,9 @@
 .logo {
   height: 2.2rem;
 }
-/* HEADER */
+/**************************/
+/* NAVIGATION */
+/**************************/
 .main-nav-list {
   list-style-type: none;
   display: flex;
@@ -26,6 +30,11 @@
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
 }
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {

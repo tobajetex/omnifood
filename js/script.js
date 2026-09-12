@@ -27,3 +27,20 @@ const observer = new IntersectionObserver(
 );
 
 observer.observe(heroSection);
+
+// (1) Get all the links from the parent element using querySelectorAll
+const navLinks = document.querySelectorAll(".main-nav-link");
+
+// (2) Loop over it and add an event listener to each
+navLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault(); // stop the default jump
+
+    // (3) Get the href attribute
+    const href = link.getAttribute("href");
+
+    // (4) Use scrollIntoView on this attribute to get to the specific location
+    document.querySelector(href).scrollIntoView({ behavior: "smooth" });
+    headerEl.classList.remove("nav-open");
+  });
+});

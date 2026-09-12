@@ -44,3 +44,9 @@ navLinks.forEach((link) => {
     headerEl.classList.remove("nav-open");
   });
 });
+
+const yearEl = document.querySelector(".year");
+
+const currentYear = new Date().getFullYear();
+
+yearEl.textContent = currentYear;

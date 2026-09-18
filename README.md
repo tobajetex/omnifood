@@ -57,3 +57,14 @@ omnifood/
 ├── index.html            # Semantic HTML structure
 └── README.md
 ```
+
+```
+## 📸 Screenshots
+
+**Desktop View:**
+![Omnifood Desktop View](img/snapshots/full_web_page.png)
+
+**Mobile View:**
+![Omnifood Mobile View](img/snapshots/full_mobile_page.png)
+
+```

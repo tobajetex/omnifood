@@ -58,7 +58,6 @@ omnifood/
 └── README.md
 ```
 
-```
 ## 📸 Screenshots
 
 **Desktop View:**
@@ -66,5 +65,3 @@ omnifood/
 
 **Mobile View:**
 ![Omnifood Mobile View](img/snapshots/full_mobile_page.png)
-
-```
